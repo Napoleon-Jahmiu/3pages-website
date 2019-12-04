@@ -172,7 +172,7 @@ padding: 0 20px;
 	min-height: 100%;
 	padding: 50px;
 	text-align: center;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 /* About-Info: This section talks all about our hotel*/
@@ -224,31 +224,35 @@ min-height: 100%;
 }
 
 /* Contact Section: this is the section where we provide our information and means of contacting us */
-#contact .form-group {
+#contact-form .form-group {
 	margin-bottom: 20px;
 }
 
-#contact .form-group label {
+#contact-form .form-group label {
 	display: block;
 	margin-bottom: 5px;
 }
 
-#contact .form-group input,
-#contact .form-group textarea {
+#contact-form .form-group input,
+#contact-form .form-group textarea {
 	width: 100%;
 	padding: 10px;
 	border-radius: 5px;
 	border: 1px #ddd solid;	
 }
 
-#contact .form-group textarea {
+#contact-form .form-group textarea {
 	height: 200px;
 }
 
-#contact .form-group input:focus,
-#contact .form-group textarea:focus {
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
 	outline: none;
 	border-color: #f7c08a;
+}
+
+#contact-box .boxes {
+	max-height: 100%;
 }
 #main-footer {
 	display: block-inline;
