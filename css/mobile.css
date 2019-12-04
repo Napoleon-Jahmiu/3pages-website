@@ -1,0 +1,34 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+#navbar ul, #navbar ul li {
+    display: block;
+    float: none;
+    text-align: center;
+}
+
+#navbar ul li {
+    padding: 5px;
+}
+
+#navbar ul li {
+    border-bottom: 1px #444 dotted;
+}
+
+#info-content .info-img {
+    width: 100%;
+}
+
+#info-content .info-text {
+    width: 100%;
+}
+
+.box {
+    float: none;
+    width: 100%;
+    overflow: none;
+}
+
