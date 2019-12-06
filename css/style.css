@@ -48,7 +48,7 @@ a {
 
 .bg-dark {
 	color: #fff;
-	background: #333;
+	background: black;
 	
 }
 
@@ -173,9 +173,9 @@ padding: 0 20px;
 	width: 33.3%;
 	padding: 50px;
 	text-align: center;
-	color: white;
-	background: black;
-	overflow: hidden;
+	/* color: white;
+	background: black; */
+	overflow: none;
 }
 
 /* About-Info: This section talks all about our hotel*/
