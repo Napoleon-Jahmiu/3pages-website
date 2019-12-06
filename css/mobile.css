@@ -1,3 +1,5 @@
+
+
 #navbar .logo {
     float: none;
     text-align: center;
@@ -58,5 +60,50 @@
     width: 100%;
     overflow: none;
     border-bottom: #444 1px solid;
+}
+
+@media (max-width: 500px) {
+    #showcase .showcase-content h1 {
+        font-size: 32px;
+        padding-top: none;
+    }
+
+    #info-content .info-text {
+        height: 520px;
+    }
+
+    #info-content .info-text p {
+        margin-bottom: 0.8em;
+    }
+
+    #info-content .info-text a {
+        padding: 8px;
+    }
+
+    #info-about .info-left h1{
+        line-height: 0.9;
+        font-size: 28px;
+    }
+
+    #testimonials h3 {
+        font-size: 28px;
+        display: inline;
+    }
+
+    .container { 
+        width: 320px;
+    }
+
+    #testimonials.testimonial{
+        display: block;
+        width: 100%;
+    }
+#testimonials .testimonial img {
+	float: none;
+    width: 100px;
+	border-radius: 50%;
+	padding: 5px 10px;
+}
+
 }
 
