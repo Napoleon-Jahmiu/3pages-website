@@ -26,9 +26,34 @@
     width: 100%;
 }
 
+/* About-info */
+
+#info-about .info-left {
+    float: none;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+
+    #info-about .info-right {
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 50%;
+        align-content: center;
+    }
+
+    #testimonials h3 {
+	text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    }
+
 .box {
     float: none;
     width: 100%;
     overflow: none;
+    border-bottom: #444 1px solid;
 }
 
