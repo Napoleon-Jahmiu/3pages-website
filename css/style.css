@@ -173,7 +173,7 @@ padding: 0 20px;
 	width: 33.3%;
 	padding: 50px;
 	text-align: center;
-	overflow: none;
+	overflow: hidden;
 }
 
 /* About-Info: This section talks all about our hotel*/

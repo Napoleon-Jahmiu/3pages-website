@@ -26,8 +26,6 @@
     width: 100%;
 }
 
-#info-content .info-text 
-
 /* About-info */
 
 #info-about .info-left {
@@ -52,6 +50,9 @@
     line-height: 1.1;
     }
 
+#contact-form {
+    padding: 0 20px;
+}
 .box {
     float: none;
     width: 100%;
